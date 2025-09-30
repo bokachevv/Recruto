@@ -23,3 +23,10 @@ docker run -d -p 5050:5050 --name recruto_app recruto
 http://localhost:5050
 http://localhost:5050/?name={YOUR_NAME}&message={YOUR_MESSAGE}
 ```
+
+### 5. Remove files
+```bash
+docker stop recruto_app #stop container
+docker rm recruto_app #remove container
+docker rmi recruto #remove image
+```
