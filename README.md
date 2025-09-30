@@ -26,7 +26,7 @@ http://localhost:5050/?name={YOUR_NAME}&message={YOUR_MESSAGE}
 
 ## Remove files
 ```bash
-docker stop recruto_app #stop container
-docker rm recruto_app #remove container
-docker rmi recruto #remove image
+docker stop {container_id} #stop container
+docker rm {container_id} #remove container
+docker rmi ibokachev/recruto #remove image
 ```
